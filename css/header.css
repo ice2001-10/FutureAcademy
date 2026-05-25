@@ -1,0 +1,199 @@
+*{scroll-behavior: smooth;}
+body{
+    margin: 0;
+    background-color: #F6F7F9;
+}
+main{
+    margin-top: 110px;
+}
+
+
+
+header{
+    position: fixed;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 19.27%;
+    padding-right: 19.27%;
+    width: 61.46%;
+    justify-content: space-between;
+    height: 110px;
+    top: 0;
+    z-index: 2;
+}
+#headerCityIcon{
+    transition: all 0.3s ease;
+}
+.header--info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+.header--info--with{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+}
+.header--info--link{
+    font-family: 'Montserrat','Arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    white-space: nowrap;
+}
+
+
+.header--city--shadow{
+    position: fixed;
+    width: 61.46%;
+    box-sizing: border-box;
+    margin-left: 19.27%;
+    margin-right: 19.27%;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+.header--city--shadow::before{
+    content: "";
+    position: absolute;
+    top: 8px; left: -10px; right: -10px; bottom: -17px;
+    background: linear-gradient(90deg, #F7941D 0%, #27AAE1 100%);
+    opacity: 0.3;
+    border-radius: 10px;
+    filter: blur(8px);
+    z-index: -1;
+}
+.header--city--container{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 0 0 6px 6px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.header--city--title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.header--city--info{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.header--city--content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.header--city--name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #4F4F4F;
+    margin: 0;
+    transition: all 0.15s ease;
+}
+.header--city--name:hover{
+    cursor: pointer;
+    font-weight: 500;
+    color: #00093C;
+}
+.header--city--shadow{opacity: 0; display: none;}
+
+
+.header--burger{display: none;}
+#burger1{
+    display: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#burger0{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.header--burger--info{
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    background-color: white;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+
+
+@media screen and (max-width: 1800px) {
+    .header--burger{display: flex;}
+    #headerInfo0{display: none;}
+}
+@media screen and (max-width: 1500px) {
+    header{
+        padding-left: 14%;
+        padding-right: 14%;
+        width: 72%;
+    }
+    .header--city--shadow{
+        margin-left: 14%;
+        margin-right: 14%;
+        width: 72%;
+    }
+}
+@media screen and (max-width: 1300px) {
+    header{
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 80%;
+    }
+    .header--city--shadow{
+        margin-left: 10%;
+        margin-right: 10%;  
+        width: 80%;
+    }
+}
+@media screen and (max-width: 900px) {
+    header{
+        padding-left: 3%;
+        padding-right: 3%;
+        width: 94%;
+    }
+    .header--city--shadow{
+        margin-left: 3%;
+        margin-right: 3%;  
+        width: 94%;
+    }
+}
+@media screen and (max-width: 700px) {
+    #headerInfo1{display: none;}
+    #burger1{display: flex;}
+}

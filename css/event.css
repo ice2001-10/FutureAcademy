@@ -1,0 +1,216 @@
+header{background-color: #00093C;}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+    padding-left: 19.27%;
+    padding-right: 19.27%;
+    margin-bottom: 100px;
+}
+
+
+.main--title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+.main--block{
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 30px;
+    box-sizing: border-box;
+    gap: 17px;
+    cursor: pointer;
+}
+.main--info{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.block--shadow{
+    width: 100%;
+    position: relative;
+}
+.block--shadow::before{
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(90deg, #F7941D 0%, #27AAE1 100%);
+    opacity: 0.3;
+    border-radius: 10px;
+    filter: blur(8px);
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+.block--shadow:hover::before{
+    top: -10px; left: -10px; right: -10px; bottom: -10px;
+}
+.block--info{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.block--title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #00093C;
+    margin: 0;
+}
+.block--text{
+    max-width: 280px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #4F4F4F;
+    margin: 0;
+}
+.block--date{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin: 0;
+}
+
+.orange{
+    padding: 20px 40px;
+    box-sizing: border-box;
+    background: #F6B05B;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+.orange--info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.orange--button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: auto;
+
+    width: 222.45px;
+    height: 60px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    background: none;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    align-items: center;
+    color: #000000;
+
+    transition: all 0.3s ease;
+}
+.orange--button:hover{
+    color: white;
+    background-color: #000;
+    cursor: pointer;
+}
+.orange--date{
+    max-width: 108px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 0.9;
+    align-items: center;
+    margin: 0;
+
+    color: #000;
+}
+.orange--date span{
+    font-weight: 500;
+    font-size: 27px;
+}
+.orange--title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 26px;
+    color: #000000;
+    margin: 0;
+}
+.orange--text{
+    max-width: 529px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+    margin: 0;
+}
+
+.greenShadow{width: 66.1%;}
+.green{
+    background-color: B8EFCF;
+    flex-direction: row;
+    padding: 0;
+    background-color: #B8EFCF;
+}
+.green--info{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    justify-content: center;
+}
+
+.photoShadow{width: 32.2%;}
+.photo{
+    justify-content: center;
+    background-image: url(../images/event/photoImg.svg);
+    height: 100%;
+    gap: 0;
+}
+.photo--title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.photo--text{
+    max-width: 272px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+
+.whiteBlue{background-color: #C7EEFF;}
+.yellow{background-color: #FFE38E;}
+.purple{background-color: #DDDDFF;}
+.blue{background-color: #C5DDFF;}
+.pink{background-color: #FFEEF6;}
+.whiteOrange{background-color: #FFCE94;}
