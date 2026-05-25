@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/burger.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Future Academy</title>
+</head>
+<body>
+    <header id="header">
+        <img src="images/header/logo.svg" alt="logo">
+        <div class="header--info" id="headerInfo0">
+            <div class="header--info--with" onclick="window.location='allCourses.html';">
+                <img src="images/header/headerIcon1.svg" alt="" id="headerIcon1">
+                <a class="header--info--link">Все курсы</a>
+            </div>
+            <a href="event.html" class="header--info--link">Мероприятия</a>
+            <a href="" class="header--info--link">Базы знаний</a>
+            <a href="" class="header--info--link">Карьера</a>
+        </div>
+
+        <div class="header--info" id="headerInfo1">
+            <div class="header--info--with" id="headerCity">
+                <img src="images/header/headerIcon2.svg" alt="icon" id="headerIcon2">
+                <p class="header--info--link" id="cityNow"></p>
+                <img src="images/header/headerIconCity.svg" alt="icon" id="headerCityIcon">
+            </div>
+            <p class="header--info--link">8 800 950-33-98</p>
+            <div class="header--info--with">
+                <img src="images/header/headerIcon3.svg" alt="icon" id="headerIcon3">
+                <a href="" class="header--info--link">Войти</a>
+            </div>
+        </div>
+
+        <div class="header--burger">
+            <div class="header--burger--icon" id="burgerMenu">
+                <span class="burgerStrip" id="strip1"></span>
+                <span class="burgerStrip" id="strip2"></span>
+                <span class="burgerStrip" id="strip3"></span>
+            </div>
+            <div class="header--burger--info" id="burgerInfo">
+                <div id="burger0">
+                    <div class="header--info--with" onclick="window.location='allCourses.html';">
+                        <img src="images/header/headerIcon1.svg" alt="" id="headerIcon1">
+                        <a class="header--info--link">Все курсы</a>
+                    </div>
+                    <a href="event.html" class="header--info--link">Мероприятия</a>
+                    <a href="" class="header--info--link">Базы знаний</a>
+                    <a href="" class="header--info--link">Карьера</a>
+                </div>
+                
+                <div id="burger1">
+                    <p class="header--info--link">8 800 950-33-98</p>
+                    <div class="header--info--with">
+                        <img src="images/header/headerIcon3.svg" alt="icon" id="headerIcon3">
+                        <a href="" class="header--info--link">Войти</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="header--city--shadow" id="headerCityContainer">
+        <div class="header--city--container">
+            <h1 class="header--city--title">Выберите свой город</h1>
+
+            <div class="header--city--info">
+                <div class="header--city--content">
+                    <p class="header--city--name" id="city0_0">Абакан</p>
+                    <p class="header--city--name" id="city0_1">Азов</p>
+                    <p class="header--city--name" id="city0_2">Александров</p>
+                    <p class="header--city--name" id="city0_3">Алексин</p>
+                    <p class="header--city--name" id="city0_4">Альметьевск</p>
+                    <p class="header--city--name" id="city0_5">Анапа</p>
+                    <p class="header--city--name" id="city0_6">Ангарск</p>
+                    <p class="header--city--name" id="city0_7">Анжеро-Судженск</p>
+                    <p class="header--city--name" id="city0_8">Апатиты</p>
+                    <p class="header--city--name" id="city0_9">Арзамас</p>
+                </div>
+
+                <div class="header--city--content">
+                    <p class="header--city--name" id="city1_0">Балаково</p>
+                    <p class="header--city--name" id="city1_1">Балашиха</p>
+                    <p class="header--city--name" id="city1_2">Барнаул</p>
+                    <p class="header--city--name" id="city1_3">Белгород</p>
+                    <p class="header--city--name" id="city1_4">Бердск</p>
+                    <p class="header--city--name" id="city1_5">Березники</p>
+                    <p class="header--city--name" id="city1_6">Бийск</p>
+                    <p class="header--city--name" id="city1_7">Благовещенск</p>
+                    <p class="header--city--name" id="city1_8">Братск</p>
+                    <p class="header--city--name" id="city1_9">Брянск</p>
+                </div>
+
+                <div class="header--city--content">
+                    <p class="header--city--name" id="city2_0">Владивосток</p>
+                    <p class="header--city--name" id="city2_1">Владикавказ</p>
+                    <p class="header--city--name" id="city2_2">Владимир</p>
+                    <p class="header--city--name" id="city2_3">Волгоград</p>
+                    <p class="header--city--name" id="city2_4">Волгодонск</p>
+                    <p class="header--city--name" id="city2_5">Волжский</p>
+                    <p class="header--city--name" id="city2_6">Великие Луки</p>
+                    <p class="header--city--name" id="city2_7">Великий Новгород</p>
+                    <p class="header--city--name" id="city2_8">Вологда</p>
+                    <p class="header--city--name" id="city2_9">Воронеж</p>
+                </div>
+
+                <div class="header--city--content">
+                    <p class="header--city--name" id="city3_0">Гатчина</p>
+                    <p class="header--city--name" id="city3_1">Геленджик</p>
+                    <p class="header--city--name" id="city3_2">Глазов</p>
+                    <p class="header--city--name" id="city3_3">Горно-Алтайск</p>
+                    <p class="header--city--name" id="city3_4">Грозный</p>
+                    <p class="header--city--name" id="city3_5">Дзержинск</p>
+                    <p class="header--city--name" id="city3_6">Димитровград</p>
+                    <p class="header--city--name" id="city3_7">Дмитров</p>
+                    <p class="header--city--name" id="city3_8">Домодедово</p>
+                    <p class="header--city--name" id="city3_9">Дубна</p>
+                </div>
+
+                <div class="header--city--content">
+                    <p class="header--city--name" id="city4_0">Казань</p>
+                    <p class="header--city--name" id="city4_1">Калининград</p>
+                    <p class="header--city--name" id="city4_2">Калуга</p>
+                    <p class="header--city--name" id="city4_3">Камышин</p>
+                    <p class="header--city--name" id="city4_4">Каспийск</p>
+                    <p class="header--city--name" id="city4_5">Кемерово</p>
+                    <p class="header--city--name" id="city4_6">Краснодар</p>
+                    <p class="header--city--name" id="city4_7">Киров</p>
+                    <p class="header--city--name" id="city4_8">Красноярск</p>
+                    <p class="header--city--name" id="city4_9">Курск</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <main>
+        <section class="part1">
+            <div class="part1--info">
+                <h1 class="part1--title">Образовательная платформа
+                    ХОД Future Academy</h1>
+                <p class="part1--text">Актуальные знания для новичков и профессионалов</p>
+            </div>
+            <img src="images/main/part1/part1img.svg" alt="img" class="part1--img">
+        </section>
+
+        <section class="part2">
+            <div class="part2--owl">
+                <div class="part2--owl--info">
+                    <div class="part2--owl--infoText">
+                        <h1 class="part2--owl--title">Кем вы хотите стать?</h1>
+                        <p class="part2--owl--text">Пора найти себя 
+    и выбрать подходящий курс :)</p>
+                        <p class="part2--owl--text">Удачи!</p>
+                    </div>
+                    
+                </div>
+                <img src="images/main/part2/part2Owl.svg" alt="owl" class="part2--owl--img">
+            </div>
+            <div class="part2--info">
+                <div class="part2--info--age" id="ageContainer">
+                    <img src="images/main/part2/s.svg" alt="s" id="ageInfo">
+
+                    <div class="part2--age--option" id="part2age0">
+                        <img src="images/main/part2/part2Children.svg" alt="ageIcon">
+                        <div>
+                            <p class="part2--age--name">Дети</p>
+                            <p class="part2--age--number">8 — 14 лет</p>
+                        </div>
+                    </div>
+
+                    <div class="part2--age--option" id="part2age1">
+                        <img src="images/main/part2/part2Teenager.svg" alt="ageIcon">
+                        <div>
+                            <p class="part2--age--name">Подростки</p>
+                            <p class="part2--age--number">14 — 18 лет</p>
+                        </div>
+                    </div>
+
+                    <div class="part2--age--option" id="part2age2">
+                        <img src="images/main/part2/part2Family.svg" alt="ageIcon">
+                        <div class="part2--age--info">
+                            <p class="part2--age--name">Взрослые</p>
+                            <p class="part2--age--number">18 — ∞ лет</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="part2--info--cards" id="part2age0Card">
+
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Робототехника</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Создание игр</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Web-разработка</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Мультимедиа</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Шахматы</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">3D-моделирование и дизайн</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Английский язык</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Блогинг</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Soft skills</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="part2--info--cards" id="part2age1Card">
+
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Web-разработка</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Прикладное программирование</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Графическое моделирование</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Game Development</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Разработчик мобильных приложений</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Блогинг</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Создание игр</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Программирование</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Мультимедиа</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Soft skills</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="part2--info--cards" id="part2age2Card">
+
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Разработчик игр на Unity</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Разработка ПО</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Графический Дизайн</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Тестировщик ПО</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Интернет Маркетинг</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Java-разработчик</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Python–разработчик</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">IOS-разработчик</p>
+                        </div>
+                    </div>
+                    <div class="part2--card--shadow">
+                        <div class="part2--card">
+                            <p class="part2--cards--name">Программирование</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            
+        </section>
+
+        <section class="part3" id="part3">
+            <img src="images/main/part3/part3Img1.svg" alt="img" id="part3Img">
+            <img src="images/main/part3/part3Play.svg" alt="play" id="part3Play">
+        </section>
+
+        <section class="part4">
+            <h1 class="part4--title">Актуальные знания от признанных экспертов рынка 
+для новичков и практикующих специалистов.</h1>
+            <div class="part4--info">
+                <div class="part4--info--numbers">
+                    <p class="part4--info--title">600</p>
+                    <p class="part4--info--text">Курсов</p>
+                </div>
+
+                <div class="part4--info--numbers">
+                    <p class="part4--info--title">82</p>
+                    <p class="part4--info--text">Ведущих преподавателей</p>
+                </div>
+
+                <div class="part4--info--numbers">
+                    <p class="part4--info--title">14 795</p>
+                    <p class="part4--info--text">Выпускников</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="part5 part5--containerColumn">
+            
+            <div class="part5--shadow orangeShadow">
+                <div class="part5--orange" id="orange">
+                    <div id="orangeTitleContainer">
+                        <h1 class="part5--orange--title">25<span>ноября</span></h1>
+                    </div>
+                    
+                    <div class="part5--orange--info" id="orangeInfo">
+                        <p class="part5--orange--info--title" id="orangeInfoTitle">День открытых дверей </p>
+                        <p class="part5--text part5--orange--text">Приглашаем всех желающих на бесплатную экскурсию 
+    в мир востребованных профессий и полезных навыков</p>
+                    </div>
+                    <button class="part5--orange--button" id="part5Button1">
+                        <p>Записаться</p>
+                        <img src="images/main/part5/buttonIcon.svg" alt="icon" id="part5Icon1">
+                    </button>
+                </div>
+            </div>
+        
+            <div class="part5--containerRow">
+
+                <div class="part5--shadow blueShadow">
+                    <div class="part5--blue">
+                        <img src="images/main/part5/blueIcon.svg" alt="icon">
+                        <p class="part5--title">Программы обучения</p>
+                        <p class="part5--text part5--blue--text">В списке наших курсов вы сможете найти профессию и занятие по душе, изучить новое и получить практические знания, которые помогут получить работу мечты.</p>
+                        <button class="part5--blue--button" id="part5Button2">
+                            <p>Подробнее</p>
+                            <img src="images/main/part5/buttonIcon.svg" alt="icon" id="part5Icon2">
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="part5--containerColumn">
+
+                    <div class="part5--containerRow">
+
+                        <div class="part5--shadow greenShadow">
+                            <div class="part5--green">
+                                <img src="images/main/part5/greenIcon.svg" alt="icon">
+                                <p class="part5--title">Новости Академии</p>
+                            </div>
+                        </div>
+                        
+                        <div class="part5--shadow redShadow">
+                            <div class="part5--red">
+                                <img src="images/main/part5/redIcon.svg" alt="icon">
+                                <p class="part5--title">Мир IT</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="part5--shadow yellowShadow">
+                        <div class="part5--yellow">
+                            <img src="images/main/part5/yellowIcon.svg" alt="icon">
+                            <div class="part5--yellow--info">
+                                <p class="part5--title part5--yellow--title">Попробуй!</p>
+                                <p class="part5--text part5--yellow--text">Пройдите тест и узнайте свои способности 
+    в сфере информационных технологий</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- <section class="part6">
+            <h1 class="part6--title">Отзывы наших студентов</h1>
+
+            <div class="part6--container">
+                <div class="part6--card" id="part6Card1">
+                    <div class="part6--card--info">
+                        <img src="images/main/part6/avatars/avatar1.svg" alt="avatar">
+                        <div class="part6--card--data">
+                            <p class="part6--card--name">Имя Фамилия</p>
+                            <p class="part6--card--job">Студент курса «WEB-разработчик»</p>
+                        </div>
+                    </div>
+
+                    <p class="part6--card--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. In hac habitasse platea dictumst. In ut dui sodales.</p>
+
+                    <div class="part6--card--grade">
+                        <img src="images/main/part6/part6Star.svg" alt="star">
+                        <p class="part6--card--grade--text">4,87 / 5</p>
+                    </div>
+                </div>
+
+                <div class="part6--card" id="part6Card2">
+                    <div class="part6--card--info">
+                        <img src="images/main/part6/avatars/avatar2.svg" alt="avatar">
+                        <div class="part6--card--data">
+                            <p class="part6--card--name">Имя Фамилия</p>
+                            <p class="part6--card--job">Студент курса «WEB-разработчик»</p>
+                        </div>
+                    </div>
+
+                    <p class="part6--card--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius.</p>
+
+                    <div class="part6--card--grade">
+                        <img src="images/main/part6/part6Star.svg" alt="star">
+                        <p class="part6--card--grade--text">4,87 / 5</p>
+                    </div>
+                </div>
+
+                <div class="part6--card" id="part6Card3">
+                    <div class="part6--card--info">
+                        <img src="images/main/part6/avatars/avatar3.svg" alt="avatar">
+                        <div class="part6--card--data">
+                            <p class="part6--card--name">Имя Фамилия</p>
+                            <p class="part6--card--job">Студент курса «WEB-разработчик»</p>
+                        </div>
+                    </div>
+
+                    <p class="part6--card--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. In hac habitasse platea dictumst. In ut dui sodales, scelerisque eros non, ultrices magna. </p>
+
+                    <div class="part6--card--grade">
+                        <img src="images/main/part6/part6Star.svg" alt="star">
+                        <p class="part6--card--grade--text">4,87 / 5</p>
+                    </div>
+                </div>
+
+                <div class="part6--card" id="part6Card4">
+                    <div class="part6--card--info">
+                        <img src="images/main/part6/avatars/avatar4.svg" alt="avatar">
+                        <div class="part6--card--data">
+                            <p class="part6--card--name">Имя Фамилия</p>
+                            <p class="part6--card--job">Студент курса «WEB-разработчик»</p>
+                        </div>
+                    </div>
+
+                    <p class="part6--card--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat!</p>
+
+                    <div class="part6--card--grade">
+                        <img src="images/main/part6/part6Star.svg" alt="star">
+                        <p class="part6--card--grade--text">4,87 / 5</p>
+                    </div>
+                </div>
+
+                <div class="part6--card" id="part6Card5">
+                    <div class="part6--card--info">
+                        <img src="images/main/part6/avatars/avatar5.svg" alt="avatar">
+                        <div class="part6--card--data">
+                            <p class="part6--card--name">Имя Фамилия</p>
+                            <p class="part6--card--job">Студент курса «WEB-разработчик»</p>
+                        </div>
+                    </div>
+
+                    <p class="part6--card--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. In hac habitasse platea dictumst. In ut dui sodales.</p>
+
+                    <div class="part6--card--grade">
+                        <img src="images/main/part6/part6Star.svg" alt="star">
+                        <p class="part6--card--grade--text">4,87 / 5</p>
+                    </div>
+                </div>
+
+                <div class="part6--card" id="part6Card6">
+                    <div class="part6--card--info">
+                        <img src="images/main/part6/avatars/avatar6.svg" alt="avatar">
+                        <div class="part6--card--data">
+                            <p class="part6--card--name">Имя Фамилия</p>
+                            <p class="part6--card--job">Студент курса «WEB-разработчик»</p>
+                        </div>
+                    </div>
+
+                    <p class="part6--card--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius.</p>
+
+                    <div class="part6--card--grade">
+                        <img src="images/main/part6/part6Star.svg" alt="star">
+                        <p class="part6--card--grade--text">4,87 / 5</p>
+                    </div>
+                </div>
+
+                <div class="part6--card" id="part6Card7">
+                    <div class="part6--card--info">
+                        <img src="images/main/part6/avatars/avatar7.svg" alt="avatar">
+                        <div class="part6--card--data">
+                            <p class="part6--card--name">Имя Фамилия</p>
+                            <p class="part6--card--job">Студент курса «WEB-разработчик»</p>
+                        </div>
+                    </div>
+
+                    <p class="part6--card--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat!</p>
+
+                    <div class="part6--card--grade">
+                        <img src="images/main/part6/part6Star.svg" alt="star">
+                        <p class="part6--card--grade--text">4,87 / 5</p>
+                    </div>
+                </div>
+
+                <div class="part6--card" id="part6Card8">
+                    <div class="part6--card--info">
+                        <img src="images/main/part6/avatars/avatar4.svg" alt="avatar">
+                        <div class="part6--card--data">
+                            <p class="part6--card--name">Имя Фамилия</p>
+                            <p class="part6--card--job">Студент курса «WEB-разработчик»</p>
+                        </div>
+                    </div>
+
+                    <p class="part6--card--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat!</p>
+
+                    <div class="part6--card--grade">
+                        <img src="images/main/part6/part6Star.svg" alt="star">
+                        <p class="part6--card--grade--text">4,87 / 5</p>
+                    </div>
+                </div>
+            </div>
+
+        </section> -->
+
+        <section class="part7">
+            <h1 class="part7--title">Добро пожаловать в Академию будущего ХОД</h1>
+            <div class="part7--info">
+                <div class="part7--card">
+                    <img src="images/main/part7/part7Icon1.svg" alt="icon">
+                    <p class="part7--text">Передовой подход 
+                        к образовательному процессу</p>
+                </div>
+
+                <div class="part7--card">
+                    <img src="images/main/part7/part7Icon2.svg" alt="icon">
+                    <p class="part7--text">Непрерывное усовершенствование 
+                        и пополнение базы курсов</p>
+                </div>
+
+                <div class="part7--card">
+                    <img src="images/main/part7/part7Icon3.svg" alt="icon">
+                    <p class="part7--text">Только практикующие преподаватели</p>
+                </div>
+
+                <div class="part7--card">
+                    <img src="images/main/part7/part7Icon4.svg" alt="icon">
+                    <p class="part7--text">Сопровождение на всех этапах. От начала обучения до трудоустройства</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <section class="footer--part1--shadow">
+            <div class="footer--part1">
+                <div class="footer--owl">
+                    <img src="images/footer/owl.svg" alt="owl" id="footerOwl">
+                    <div class="footer--message--border">
+                        <div class="footer--part1--message">
+                            <h1 class="footer--message--title">Помочь с выбором?</h1>
+                            <p class="footer--message--text">Оставьте заявку и наши специалисты свяжутся с вами, ответят на все вопросы 
+                                и подберут подходящий вариант обучения.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form action="index.html" class="footer--form">
+                    <input type="text" class="footer--input" placeholder="Ваше имя">
+                    <div class="footer--form--child">
+                        <div class="footer--submit">
+                            <input type="text" class="footer--input" placeholder="Ваш телефон">
+                            <p class="footer--form--text">Нажимая на кнопку, я соглашаюсь 
+                                на обработку персональных данных 
+                                и с правилами пользования Платформой</p>
+                        </div>
+                        <div class="footer--submit">
+                            <input type="email" class="footer--input" placeholder="Ваш e-mail">
+                            <button class="footer--button">Отправить</button>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </section>
+
+        <section class="footer--main">
+
+            <div class="footer--content">
+                <img src="images/footer/logo.svg" alt="logo">
+                <h1 class="footer--title">8 800 950-33-98</h1>
+                <a href="" class="footer--link">г. Москва, ул. Ленина, д. 50</a>
+                <a href="" class="footer--link">info@hodfutureacademy.ru</a>
+                <div class="footer--icons">
+                    <img src="images/footer/icons/icon1.svg" alt="icon">
+                    <img src="images/footer/icons/icon2.svg" alt="icon">
+                    <img src="images/footer/icons/icon3.svg" alt="icon">
+                    <img src="images/footer/icons/icon4.svg" alt="icon">
+                    <img src="images/footer/icons/icon5.svg" alt="icon">
+                </div>
+                <p class="footer--author">© ХОД, Future Academy</p>
+            </div>
+
+            <div class="footer--content footerContent1">
+                <h1 class="footer--title">Детям</h1>
+                <p class="footer--text">Робототехника</p>
+                <p class="footer--text">Создание игр</p>
+                <p class="footer--text">Создание игр</p>
+                <p class="footer--text">Мультимедиа</p>
+                <p class="footer--text">Шахматы</p>
+                <p class="footer--text">Блогинг</p>
+                <p class="footer--text">Английский язык</p>
+                <p class="footer--text">Soft skills</p>
+            </div>
+
+            <div class="footer--content footerContent2">
+                <h1 class="footer--title">Подросткам</h1>
+                <p class="footer--text">Web-разработка</p>
+                <p class="footer--text">Прикладное программирование</p>
+                <p class="footer--text">Графическое моделирование</p>
+                <p class="footer--text">Game Development</p>
+                <p class="footer--text">Разработчик мобильных приложений</p>
+                <p class="footer--text">Блогинг</p>
+                <p class="footer--text">Создание игр</p>
+                <p class="footer--text">Программирование</p>
+                <p class="footer--text">Мультимедиа</p>
+                <p class="footer--text">Soft skills</p>
+            </div>
+
+            <div class="footer--content footerContent3">
+                <h1 class="footer--title">Взрослым</h1>
+                <p class="footer--text">Разработчик игр на Unity</p>
+                <p class="footer--text">Разработка ПО</p>
+                <p class="footer--text">Графический Дизайн</p>
+                <p class="footer--text">Тестировщик ПО</p>
+                <p class="footer--text">Интернет Маркетинг</p>
+                <p class="footer--text">Java-разработчик</p>
+                <p class="footer--text">Python–разработчик</p>
+                <p class="footer--text">IOS-разработчик</p>
+                <p class="footer--text">Программирование</p>
+            </div>
+
+            <div class="footer--content footerContent4">
+                <h1 class="footer--title">Информация</h1>
+                <p class="footer--text">Об академии</p>
+                <p class="footer--text">Мероприятия</p>
+                <p class="footer--text">Новости</p>
+                <p class="footer--text">База знаний</p>
+                <p class="footer--text">Карьера</p>
+                <p class="footer--text">Контакты</p>
+            </div>
+
+        </section>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/header.js"></script>
+    <!-- <script src="js/carousel.js"></script> -->
+</body>
+</html>
